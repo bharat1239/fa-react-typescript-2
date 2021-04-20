@@ -6,7 +6,6 @@ import logo from '../../assets/github_logo.png';
 import * as styles from '../../styles';
 
 export const GithubLogoText = () => {
-  console.log('as')
   return (
     <div className={styles.cardLogo}>
       <img alt={'github logo'} className={styles.cardLogoGithub} src={logo} />
